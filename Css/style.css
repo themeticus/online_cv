@@ -1,0 +1,559 @@
+.Container{
+  width: 100%;
+  height: auto;
+  background-color: rgb(104, 104, 104);
+
+}
+
+.navbar{
+  background-color: rgba(255, 255, 255, .7) ;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  left: 70%;
+  padding: 0;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.navbar li{
+  font-size: 25px;
+  margin-left: 10px;
+  line-height: inherit;
+  float: left;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.navbar li a:active{
+  background-color: rgb(53, 56, 61)
+  color:white;
+}
+
+.navbar li a:hover{
+  color:#d84949;
+}
+
+.profile_Image{
+  width: 100%;
+  min-height: 650px;
+  max-height: auto;
+  background-image: url("C:/Users/Academy4/Desktop/Nxt Level/Images/lonwabo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.coverPage{
+  margin: 0px;
+  padding: 0px;
+}
+
+.coverText{
+  text-align: center;
+  font-size: 25px;
+  color: rgba(229, 229, 229, .7);
+  font-family: 'Poiret One', cursive;
+  height: 100%;
+  margin: -450px 800px;
+  position: absolute;
+  opacity: .99;
+}
+
+.coverText h1{
+  mix-blend-mode: multiply;
+}
+
+.coverText{
+  height: 100px;
+  margin-left: 40px;
+}
+
+.aboutMe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 80px;
+  height: 400px;
+  color: white;
+}
+
+.personal_statement{
+  padding-left: 400px;
+  position: absolute;
+  margin: 50px 50px;
+}
+
+.intro_image{
+  width: 400px;
+  height: 350px;
+  /*padding-top: 20px;*/
+  display: block;
+  float: left;
+}
+
+.intro_image img{
+  width:100%;
+  height: 100%;
+  padding-top: 40px;
+}
+
+
+.Skills_obtained{
+  height: auto;
+}
+
+.experiences{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin: 0 60px;
+  font-size: 20px;
+}
+
+.Educational_experiencese img{
+  width: 150px;
+  height: 100px;
+  margin: 0;
+  padding-top:40px;
+}
+
+.skills{
+  height: 300px;
+}
+
+.skillsSection{
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.skills_images{
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin-left: 60px;
+  opacity: 0.4;
+}
+
+.skills_images:hover{
+  transition: 2s linear;
+  opacity: 1;
+}
+
+.Contact{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  background-color: rgb(193, 137, 137);
+}
+
+.Contact_details{
+  margin: 0 120px;
+  height: 100%;
+  width: 85%;
+}
+
+.Social_media{
+  padding-left: 350px;
+}
+
+.Social_mediaIcons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px 15px 0 15px;
+  }
+
+#hire_profile{
+  width: 350px;
+  height: 350px;
+  float: left;
+  filter: grayscale(100%);
+  }
+
+  #motivational_text{
+    font-size: 25px;
+    margin: 0px 105px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  #Contact_details{
+    height: 100px;
+    width: 250px;
+    font-size: 25px;
+    margin: 5px 0;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 200;
+  }
+
+  h2, .Contact_details h4{
+   text-align: center;
+   height: 15px;
+   color: rgb(175, 70, 70);
+   font-size: 40px;
+   font-family: 'Permanent Marker', cursive;`
+   margin: 15px 0;
+   padding: 0;
+ }
+
+ #back_to_top{
+     position: absolute;
+     width: 50px;
+     height: 50px;
+}
+
+@media only screen and (min-device-width: 0px)
+and (max-device-width: 480px){
+.navbar{
+  margin: 0;
+  left: 82.5%;
+  padding: 0;
+}
+
+.navbar li{
+  font-size: 35px;
+  margin-bottom: 10px;
+  float: none;
+}
+
+.navbar li a{
+  font-weight: 200;
+}
+
+.coverText{
+  text-align: center;
+  font-size: 25px;
+  height: 100%;
+  margin: -200px 80px;
+  position: absolute;
+}
+
+.coverText{
+  height: 100px;
+  margin-left: 40px;
+}
+
+.aboutMe{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 60px;
+  min-height: 1000px;
+  max-height: 1200px;
+}
+
+.personal_statement{
+  float: left;
+  padding: 0;
+  margin: 450px 100px 0px 50px;
+}
+
+.intro_image{
+  width: 100%;
+  height: 70%;
+  /*padding-top: 20px;*/
+  display: block;
+  float: left;
+}
+
+.intro_image img{
+  width:100%;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.experiences{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  font-size: 35px;
+}
+
+.Educational_experiencese img{
+  width: 250px;
+  height: 150px;
+  margin: 10px 0;
+  padding-top:40px;
+}
+
+.skills{
+  height: 1500px;
+}
+
+.skillsSection{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.skills_images{
+  width: 350px;
+  height: 350px;
+  padding-left: 240px;
+  opacity: 0.4;
+  margin-bottom: 15px;
+}
+
+.skills_images:hover{
+  transition: 2s linear;
+  opacity: 1;
+}
+
+#motivational_text{
+  font-size: 35px;
+  margin: 5px 105px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 250;
+  background-color: grey;
+  border-radius: 20px;
+  height: auto;
+  line-height: 35px;
+}
+
+#Contact_details{
+  font-size: 35px;
+}
+
+  h2, .Contact_details h4{
+    text-align: center;
+    color: rgb(175, 70, 70);
+    font-size: 25px;
+}
+
+  #hire_profile{
+    width: 250px;
+    height: 200px;
+
+  }
+
+  .Social_media{
+    padding-left: 0px;
+  }
+
+  .Social_mediaIcons{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 5px 15px 0 15px;
+    }
+
+    .Contact{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 650px;
+      text-align: center;
+    }
+
+}
+
+@media only screen and (min-device-width: 481px)
+and (max-device-width: 1023px){
+  .navbar{
+    width: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    padding: 0;
+  }
+
+  .navbar li{
+    font-size: 35px;
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .navbar li a{
+    font-weight: 200;
+  }
+
+  .coverText{
+    text-align: center;
+    font-size: 25px;
+    height: 100%;
+    margin: -200px 150px;
+    position: absolute;
+    padding-left: 20px;
+  }
+
+  .coverText{
+    height: 100px;
+    margin-left: 40px;
+  }
+
+  .aboutMe{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 60px;
+    min-height: 1000px;
+    max-height: 1200px;
+  }
+
+  .personal_statement{
+    float: left;
+    padding: 0;
+    margin: 450px 100px 0px 50px;
+  }
+
+  .intro_image{
+    width: 100%;
+    height: 70%;
+    /*padding-top: 20px;*/
+    display: block;
+    float: left;
+  }
+
+  .intro_image img{
+    width:100%;
+    height: 100%;
+    padding-top: 40px;
+  }
+
+  #motivational_text{
+    font-size: 25px;
+    margin: 5px 55px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 250;
+  }
+
+  #Contact_details{
+    height: 100px;
+    width: 150px;
+    font-size: 25px;
+    margin: 5px 0;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 200;
+  }
+
+  h2, .Contact_details h4{
+   text-align: center;
+   color: rgb(175, 70, 70);
+   font-size: 25px;
+   padding-right: 80px;
+   margin-bottom: 50px 0;
+ }
+
+  #hire_profile{
+    width: 250px;
+    height: 250px;
+    float: none;
+    padding: 0;
+    }
+
+
+    .Social_media{
+      padding-left: 0px;
+    }
+
+    .Social_mediaIcons{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 5px 15px 0 15px;
+      }
+
+      .Contact{
+        height: 760px;
+      }
+
+      .experiences{
+
+      }
+
+      .skills{
+        height: 550px;
+      }
+
+      .skillsSection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        padding-bottom: 30px;
+      }
+
+      .skills_images{
+        float: left;
+        width: 250px;
+        height: 250px;
+        margin-left: 60px;
+        opacity: 0.4;
+      }
+
+      .skills_images:hover{
+        transition: 2s linear;
+        opacity: 1;
+      }
+
+      .Contact{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 450px;
+        text-align: center;
+        background-color: rgb(193, 137, 137);
+      }
+
+      .Contact_details{
+        margin: 0 120px;
+        height: 100%;
+        width: 85%;
+      }
+
+      .Social_media{
+        padding-left: 350px;
+      }
+
+      .Social_mediaIcons{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 5px 15px 0 15px;
+        }
+
+      #hire_profile{
+        width: 350px;
+        height: 350px;
+        float: left;
+        filter: grayscale(100%);
+        }
+
+        #motivational_text{
+          font-size: 25px;
+          margin: 0px 105px;
+          font-family: 'Roboto Slab', serif;
+          font-weight: 300;
+          line-height: 25px;
+        }
+
+        #Contact_details{
+          height: 100px;
+          width: 250px;
+          font-size: 25px;
+          margin: 5px 0;
+          text-align: center;
+          font-family: 'Shadows Into Light', cursive;
+          font-weight: 200;
+        }
+
+}
